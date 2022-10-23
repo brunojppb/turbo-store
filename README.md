@@ -1,6 +1,7 @@
 # Turbo Store
 
-This is a TypeScript monorepo used to demo Turborepo. 
+This is a TypeScript monorepo created to demo [Turborepo](https://turborepo.org/),
+a high-performance build system for JavaScript and typeScript codebases.
 
 ## What's inside?
 
