@@ -1,23 +1,24 @@
 {
   "name": "turbo-store",
   "version": "0.0.0",
+  "description": "The blazingly fast TypeScript monorepo",
   "private": true,
   "scripts": {
-    "dev": "turbo run dev --parallel",
-    "build": "turbo run build",
-    "lint": "turbo run lint",
-    "test": "turbo run test",
-    "ci": "turbo run lint test",
+    "dev": "turbo dev --parallel",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "test": "turbo test",
+    "ci": "turbo lint test",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
     "eslint-config-custom": "workspace:*",
     "prettier": "latest",
-    "turbo": "latest"
+    "turbo": "1.8.3"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=16"
   },
   "dependencies": {},
-  "packageManager": "pnpm@7.9.5"
+  "packageManager": "pnpm@7.28.0"
 }
