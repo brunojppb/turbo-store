@@ -61,6 +61,10 @@ Next, you can link your Turborepo to your Remote Cache by running the following 
 ```
 pnpm dlx turbo link
 ```
+### Remote caching with a self-hosted cache server
+
+If you are not using Vercel's own infrastructure, you can self-host your own turborepo cache server. I've created an open-source version
+of it and it's available here: https://github.com/brunojppb/turbo-racer
 
 > **Note**  
 > This project was created based on the templates provided by the awesome Turborepo folks [here](https://github.com/vercel/turborepo)
